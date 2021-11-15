@@ -23,6 +23,20 @@ rem see also documentation comments in UpdateRepo.bat.
 rem Reset the error level (by running an always successfull command):
 ver > nul
 
+
+rem Some alternative repos for NeuronDotNet:
+rem   https://sourceforge.net/projects/neurondotnet/
+rem     - original source
+rem   https://github.com/BitPhinix/NeuronNet.git 
+rem     - newer, changes from renovation bot
+rem   https://github.com/tiagosomda/NeuronDotNet.git  
+rem     -for use in Unity, probably just the same as original
+rem   https://github.com/0xFireball/SharpNeuron.git 
+rem     - adapted to .NETCore / standard - check it out, maybe you can use
+rem     it for your purpose, just take care that apps still work, including
+rem     loading old models (binary deserialization may be a problem, or
+rem     maybe not after last corrections)
+
 rem Parameters for the update:
 set ModuleDirRelative=NeuronDotNet
 set CheckoutBranch=master
