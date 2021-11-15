@@ -42,7 +42,7 @@ git config --global alias.clone-branches '! git branch -a | sed -n "/\/HEAD /d; 
 Then use the alias like this:
   git clone-branches
 
-- NE DELA, ukaz bi moral izvesti v unix shell-u (recimo poženeš bash), ampak tam ni povezave z inštalacijo Git-a na Windows.
+- DOES NOT WORK, you should run this command in unix shell (e.g. you run bash), but then you don't have connection with Git installation on Windows
 
 -------- via clone bare or clone mirror:
 From  https://stackoverflow.com/a/13575102/3887591 :
