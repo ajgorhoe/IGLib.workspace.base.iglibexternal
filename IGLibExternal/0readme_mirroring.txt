@@ -1,5 +1,21 @@
 
 
+Most USEFUL STUFF for maintaining MIRRORed forks:
+
+======== GitHub help on mirroring, etc.:
+Duplicating a repository
+  https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository
+See in particular: 
+  Mirroring a repository in another location
+    - This involves creating a bare mirroredclone of the repository, then fetch / push whenever
+	you want to update.
+
+========
+How do I update my GitHub mirror due to the master/main change? 
+https://stackoverflow.com/questions/64618081/how-do-i-update-my-github-mirror-due-to-the-master-main-change
+  - contains some generally useful manipulation
+
+
 ========
 How to change a bare repository to a normal one:
 Execute:
@@ -57,7 +73,6 @@ git reset --hard
 Use --mirror instead of --bare if your remote repo has remotes of its own
 This is a similar but more detailed answer:
 https://stackoverflow.com/a/34122093/3887591 
-
 
 
 
