@@ -36,6 +36,8 @@ rem     - adapted to .NETCore / standard - check it out, maybe you can use
 rem     it for your purpose, just take care that apps still work, including
 rem     loading old models (binary deserialization may be a problem, or
 rem     maybe not after last corrections)
+rem   https://github.com/Guardian-Development/NeuralNetworksLibrary.git
+rem     - similar lib, looks nice, but no licence attached
 
 rem Parameters for the update:
 set ModuleDirRelative=NeuronDotNet
