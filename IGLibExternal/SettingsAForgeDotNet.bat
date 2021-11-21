@@ -27,11 +27,14 @@ rem Parameters for the update:
 set ModuleDirRelative=aforge.net
 set CheckoutBranch=master
 set RepositoryAddress=https://github.com/ajgorhoe/AForge.NET.git
-set RepositoryAddressSecondary=https://github.com/andrewkirillov/AForge.NET.git
+set RepositoryAddressSecondary=
 set RepositoryAddressLocal=d:\git_external\aforge.net.git
 set Remote=origin
-set RemoteSecondary=upstream
+set RemoteSecondary=
 set RemoteLocal=local
+
+set RepositoryAddressUpstream=https://github.com/andrewkirillov/AForge.NET.git
+set RemoteUpstream=upstream
 
 set ModuleDir=%~dp0%ModuleDirRelative%
 

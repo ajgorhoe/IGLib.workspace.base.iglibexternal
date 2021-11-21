@@ -43,11 +43,14 @@ rem Parameters for the update:
 set ModuleDirRelative=NeuronDotNet
 set CheckoutBranch=master
 set RepositoryAddress=https://github.com/ajgorhoe/NeuronDotNet.git
-set RepositoryAddressSecondary=https://github.com/trarck/NeuronDotNet.git
+set RepositoryAddressSecondary=
 set RepositoryAddressLocal=d:\git_external\NeuronDotNet.git
 set Remote=origin
-set RemoteSecondary=upstream
+set RemoteSecondary=
 set RemoteLocal=local
+
+set RepositoryAddressUpstream=https://github.com/trarck/NeuronDotNet.git
+set RemoteUpstream=upstream
 
 set ModuleDir=%~dp0%ModuleDirRelative%
 

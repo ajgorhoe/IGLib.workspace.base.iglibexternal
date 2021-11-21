@@ -27,11 +27,14 @@ rem Parameters for the update:
 set ModuleDirRelative=mathnet-numerics
 set CheckoutBranch=8cdd91d37f36cb4daecc7838898a08ef9c3aa1a4
 set RepositoryAddress=https://github.com/ajgorhoe/mathnet-numerics.git
-set RepositoryAddressSecondary=https://github.com/mathnet/mathnet-numerics.git
+set RepositoryAddressSecondary=
 set RepositoryAddressLocal=d:\git_external\mathnet-numerics.git
 set Remote=origin
-set RemoteSecondary=upstream
+set RemoteSecondary=
 set RemoteLocal=local
+
+set RepositoryAddressUpstream=https://github.com/mathnet/mathnet-numerics.git
+set RemoteUpstream=upstream
 
 set ModuleDir=%~dp0%ModuleDirRelative%
 

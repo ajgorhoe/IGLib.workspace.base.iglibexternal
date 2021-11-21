@@ -27,11 +27,14 @@ rem Parameters for the update:
 set ModuleDirRelative=accord.net
 set CheckoutBranch=master
 set RepositoryAddress=https://github.com/ajgorhoe/framework.git
-set RepositoryAddressSecondary=https://github.com/accord-net/framework.git
+set RepositoryAddressSecondary=
 set RepositoryAddressLocal=d:\git_external\accord.net.git
 set Remote=origin
-set RemoteSecondary=upstream
+set RemoteSecondary=
 set RemoteLocal=local
+
+set RepositoryAddressUpstream=https://github.com/accord-net/framework.git
+set RemoteUpstream=upstream
 
 set ModuleDir=%~dp0%ModuleDirRelative%
 

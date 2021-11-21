@@ -27,11 +27,14 @@ rem Parameters for the update:
 set ModuleDirRelative=ActiViz
 set CheckoutBranch=master
 set RepositoryAddress=https://github.com/ajgorhoe/activizdotnet.git
-set RepositoryAddressSecondary=https://github.com/dearman/activizdotnet.git
+set RepositoryAddressSecondary=
 set RepositoryAddressLocal=d:\git_external\ActiViz.git
 set Remote=origin
-set RemoteSecondary=upstream
+set RemoteSecondary=
 set RemoteLocal=local
+
+set RepositoryAddressUpstream=https://github.com/dearman/activizdotnet.git
+set RemoteUpstream=upstream
 
 set ModuleDir=%~dp0%ModuleDirRelative%
 
