@@ -41,7 +41,10 @@ rem     - similar lib, looks nice, but no licence attached
 
 rem Parameters for the update:
 set ModuleDirRelative=NeuronDotNet
-set CheckoutBranch=master
+set CheckoutBranch=IGLib/21_11_22_IGLib_1_9_1_Modified
+rem for IGLib 1.9.1: IGLib/21_11_22_IGLib_1_9_1_Modified
+rem Possible that this would also work:
+rem set CheckoutBranch=IGLib/21_11_22_IGLib_1_9_1_Modified
 set RepositoryAddress=https://github.com/ajgorhoe/NeuronDotNet.git
 set RepositoryAddressSecondary=
 set RepositoryAddressLocal=d:\git_external\NeuronDotNet.git
