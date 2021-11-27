@@ -17,7 +17,7 @@ to provide a fallback in case that the remote IGLibScripts repository is
 inaccessible and cannot be cloned.
 
 The directory  
-  IGLibScripts_copy/
+  copy/IGLibScripts_copy/
 contains a copy o the repository that is cloned into IGLibScripts, in order
 to support fallback mechanism for scripts when external repository is not
 accessible and cannot be cloned. This may be changed in the future.
