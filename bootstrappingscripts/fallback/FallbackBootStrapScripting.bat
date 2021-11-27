@@ -20,13 +20,21 @@ if not exist "%FallbackSetScriptReferences%" goto ErrorScriptRepo
 
 rem Call the fallback script for setting script references...
 call "%FallbackSetScriptReferences%" %*
-
+if not defined PrintScriptReferences goto ErrorScriptRepo
+echo.
+echo Fallback IGLibScripts procedure was performed.
+echo Script settings will be printed below.
+echo.
+call "%PrintScriptReferences%" %*
+echo.
+goto AfterScriptReferencesUpdate
 
 :ErrorScriptRepo
   echo.
   echo ERROR in BOOTSTRAPPING scripts:
   echo   Fallback scripts could not be executed correctly.
   echo.
+
 :AfterScriptReferencesUpdate
 
 
