@@ -25,7 +25,8 @@ ver > nul
 
 rem Parameters for the update:
 set ModuleDirRelative=accord.net
-set CheckoutBranch=master
+rem set CheckoutBranch=master
+set CheckoutBranch=00IGLib/21_11_26_IGLib_1_8_1_Initial
 set RepositoryAddress=https://github.com/ajgorhoe/framework.git
 set RepositoryAddressSecondary=
 set RepositoryAddressLocal=d:\git_external\accord.net.git

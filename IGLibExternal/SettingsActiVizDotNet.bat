@@ -25,7 +25,9 @@ ver > nul
 
 rem Parameters for the update:
 set ModuleDirRelative=ActiViz
-set CheckoutBranch=master
+rem CheckoutBranch=master
+rem Actual brahch for use by IGLib is to be determined later.
+set CheckoutBranch=00IGLib/11_10_IGLib_nitial
 set RepositoryAddress=https://github.com/ajgorhoe/activizdotnet.git
 set RepositoryAddressSecondary=
 set RepositoryAddressLocal=d:\git_external\ActiViz.git
