@@ -8,8 +8,8 @@ setlocal
 rem Reset the error level (by running an always successfull command):
 ver > nul
 
-REM rem Call bootstrapping script to define basic directories and scripts:
-REM call "%~dp0\BootStrapScripting.bat"
+rem Call bootstrapping script to define basic directories and scripts:
+call "%~dp0\..\bootstrappingscripts\BootStrapScripting.bat"
 
 
 

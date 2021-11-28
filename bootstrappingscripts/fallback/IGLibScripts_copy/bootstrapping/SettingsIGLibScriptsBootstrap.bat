@@ -1,7 +1,7 @@
 
 @echo off
 
-rem Sets parameters for cloning or updating the ZedGraph repository.
+rem Sets parameters for cloning or updating the IGLibScripts repository.
 
 rem Parameters are set as environment variables with agreed names.
 rem These settings are used by scripts such as:
@@ -23,21 +23,21 @@ rem see also documentation comments in UpdateRepo.bat.
 rem Reset the error level (by running an always successfull command):
 ver > nul
 
+echo.
+echo SETTINGS for bootstrapping IGLibScripts
+echo.
+
 rem Parameters for the update:
-set ModuleDirRelative=ZedGraph
-rem set CheckoutBranch=f7160203e2c400020046c97f61a01f470edcb4ce
-set CheckoutBranch=00IGLib/21_11_26_IGLib_1_8_1_Initial
-set RepositoryAddress=https://github.com/ajgorhoe/ZedGraph.git
-set RepositoryAddressSecondary=
-set RepositoryAddressLocal=d:\git_external\ZedGraph.git
+set ModuleDirRelative=IGLibScripts
+set CheckoutBranch=master
+set RepositoryAddress=https://github.com/ajgorhoe/IGLib.modules.IGLibScripts.git
+set RepositoryAddressSecondary=https://ajgorhoe@bitbucket.org/ajgorhoe/iglib.modules.iglibscripts.git
+set RepositoryAddressLocal=d:\backup_sync\bk_code\git\ig\misc\iglib_modules\IGLibScripts
 set Remote=origin
-set RemoteSecondary=
+set RemoteSecondary=originSecondary
 set RemoteLocal=local
 
-set RepositoryAddressUpstream=https://github.com/ZedGraph/ZedGraph.git
-set RemoteUpstream=upstream
-
-set ModuleDir=%~dp0%ModuleDirRelative%
+set ModuleDir=%~dp0\%ModuleDirRelative%
 
 
 if "%~1" EQU "" goto AfterCommandCall
@@ -57,7 +57,3 @@ if "%~1" EQU "" goto AfterCommandCall
 	call %CommandLine6945%
 :AfterCommandCall
 
-
-echo.
-echo SETTINGS defined for updating %ModuleDirRelative% .
-echo.

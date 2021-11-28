@@ -1,7 +1,7 @@
 
 @echo off
 
-rem Sets parameters for cloning or updating the ZedGraph repository.
+rem Sets parameters for cloning or updating the IGLibCore repository.
 
 rem Parameters are set as environment variables with agreed names.
 rem These settings are used by scripts such as:
@@ -23,19 +23,19 @@ rem see also documentation comments in UpdateRepo.bat.
 rem Reset the error level (by running an always successfull command):
 ver > nul
 
-rem Parameters for the update:
-set ModuleDirRelative=ZedGraph
-rem set CheckoutBranch=f7160203e2c400020046c97f61a01f470edcb4ce
-set CheckoutBranch=00IGLib/21_11_26_IGLib_1_8_1_Initial
-set RepositoryAddress=https://github.com/ajgorhoe/ZedGraph.git
-set RepositoryAddressSecondary=
-set RepositoryAddressLocal=d:\git_external\ZedGraph.git
-set Remote=origin
-set RemoteSecondary=
-set RemoteLocal=local
+echo.
+echo Defining env. variables: SETTINGS for updating repository: IGLibCore
+echo.
 
-set RepositoryAddressUpstream=https://github.com/ZedGraph/ZedGraph.git
-set RemoteUpstream=upstream
+rem Parameters for the update:
+set ModuleDirRelative=modules\IGLibCore
+set CheckoutBranch=master
+set RepositoryAddress=https://github.com/ajgorhoe/IGLib.modules.IGLibCore.git
+set RepositoryAddressSecondary=
+set RepositoryAddressLocal=
+set Remote=origin
+set RemoteSecondary=originBitBucket
+set RemoteLocal=local
 
 set ModuleDir=%~dp0%ModuleDirRelative%
 
@@ -57,7 +57,3 @@ if "%~1" EQU "" goto AfterCommandCall
 	call %CommandLine6945%
 :AfterCommandCall
 
-
-echo.
-echo SETTINGS defined for updating %ModuleDirRelative% .
-echo.
