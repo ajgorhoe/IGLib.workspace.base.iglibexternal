@@ -17,6 +17,12 @@ echo.
 
 echo.
 echo    Updating module ZedGraph ...
+rem call "%UpdateRepo%" "%~dp0\SettingsJint.bat"
+call "%~dp0\UpdateJint.bat"
+echo.
+
+echo.
+echo    Updating module ZedGraph ...
 rem call "%UpdateRepo%" "%~dp0\SettingsZedGraph.bat"
 call "%~dp0\UpdateZedGraph.bat"
 echo.
