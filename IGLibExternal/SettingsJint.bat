@@ -25,7 +25,7 @@ ver > nul
 
 rem Parameters for the update:
 set ModuleDirRelative=Jint
-set CheckoutBranch=master
+set CheckoutBranch=main
 rem   00IGLib/21_11_26_IGLib_1_8_1_Initial
 set RepositoryAddress=https://github.com/ajgorhoe/jint.git
 set RepositoryAddressSecondary=
