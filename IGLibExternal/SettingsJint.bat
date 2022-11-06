@@ -28,10 +28,10 @@ set ModuleDirRelative=Jint
 set CheckoutBranch=main
 rem   00IGLib/21_11_26_IGLib_1_8_1_Initial
 set RepositoryAddress=https://github.com/ajgorhoe/jint.git
-set RepositoryAddressSecondary=
+set RepositoryAddressSecondary=https://github.com/sebastienros/jint.git
 set RepositoryAddressLocal=d:\git_external\jint.git
 set Remote=origin
-set RemoteSecondary=
+set RemoteSecondary=source
 set RemoteLocal=local
 
 set RepositoryAddressUpstream=https://github.com/ajgorhoe/jint.git
