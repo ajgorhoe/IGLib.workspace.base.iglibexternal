@@ -26,7 +26,8 @@ ver > nul
 rem Parameters for the update:
 set ModuleDirRelative=ZedGraph
 rem set CheckoutBranch=f7160203e2c400020046c97f61a01f470edcb4ce
-set CheckoutBranch=00IGLib/21_11_26_IGLib_1_8_1_Initial
+set CheckoutBranch=IGLib/25_02_IGLib_2_0_0_DependenciesAndProjectsHarmonization
+rem 00IGLib/21_11_26_IGLib_1_8_1_Initial
 set RepositoryAddress=https://github.com/ajgorhoe/ZedGraph.git
 set RepositoryAddressSecondary=https://github.com/ZedGraph/ZedGraph.git
 set RepositoryAddressLocal=d:\git_external\ZedGraph.git
