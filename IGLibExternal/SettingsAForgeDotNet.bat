@@ -27,7 +27,8 @@ rem Parameters for the update:
 set ModuleDirRelative=aforge.net
 rem set CheckoutBranch=master
 rem The final branch used by IGLib eeds to be determined.
-set CheckoutBranch=00IGLib/14_11_24_IGLib_Initial
+set CheckoutBranch=IGLib/25_02_IGLib_2_0_0_DependenciesAndProjectsHarmonization
+rem 00IGLib/14_11_24_IGLib_Initial
 set RepositoryAddress=https://github.com/ajgorhoe/AForge.NET.git
 set RepositoryAddressSecondary=
 set RepositoryAddressLocal=d:\git_external\aforge.net.git
