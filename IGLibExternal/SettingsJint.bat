@@ -25,7 +25,8 @@ ver > nul
 
 rem Parameters for the update:
 set ModuleDirRelative=Jint
-set CheckoutBranch=00IGLib/main_IGLib
+set CheckoutBranch=IGLib/25_02_IGLib_2_0_0_DependenciesAndProjectsHarmonization
+  rem 00IGLib/main_IGLib
   rem   00IGLib/main_IGLib
   rem   00IGLib/22_11_06_IGLib
   rem   00IGLib/21_12_01_IGLib_Initial
