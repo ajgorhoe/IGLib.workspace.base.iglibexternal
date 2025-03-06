@@ -18,6 +18,9 @@ Write-Host "Script directory: $scriptDir"
 Write-Host "`nUpdating AccordDotNet:"
 & $(Join-Path $scriptDir "UpdateRepo_AccordDotNet.ps1")
 
+Write-Host "`nUpdating NeuronDotNet:"
+& $(Join-Path $scriptDir "UpdateRepo_NeuronDotNet.ps1")
+
 
 Write-Host "  ... updating all extended IGLib's extended dependencies completed.`n`n"
 
