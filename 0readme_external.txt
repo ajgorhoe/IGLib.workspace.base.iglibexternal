@@ -10,7 +10,7 @@ iglib/ - contains checked out versions of libraries that are used by
 
 
 Info:
-Configuring a remote for a fork - GitHib:
+Configuring a remote for a fork - GitHub:
 https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-for-a-fork
 
 
