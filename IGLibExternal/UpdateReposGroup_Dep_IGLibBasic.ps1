@@ -1,5 +1,5 @@
 
-# Clones or updates the IGLib external dependencies' repositories.
+# Clones or updates the IGLib's basic external dependencies' repositories.
 Write-Host "`n`nCloning / updating basic IGLib external dependencies ...`n"
 
 # Get the script directory such that relative paths can be resolved:
