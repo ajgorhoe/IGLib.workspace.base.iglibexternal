@@ -11,13 +11,13 @@ Write-Host "Script directory: $scriptDir"
 
 
 Write-Host "`nUpdating MathNetNumerics:"
-& $(Join-Path $scriptDir "_scripts/UpdateRepo_MathNetNumerics.ps1")
+& $(Join-Path $scriptDir "UpdateRepo_MathNetNumerics.ps1")
 
 Write-Host "`nUpdating Jint:"
-& $(Join-Path $scriptDir "_scripts/UpdateRepo_Jint.ps1")
+& $(Join-Path $scriptDir "UpdateRepo_Jint.ps1")
 
 Write-Host "`nUpdating ZedGraph:"
-& $(Join-Path $scriptDir "_scripts/UpdateRepo_ZedGraph.ps1")
+& $(Join-Path $scriptDir "UpdateRepo_ZedGraph.ps1")
 
 
 Write-Host "  ... updating basic IGLib external dependencies completed.`n`n"
