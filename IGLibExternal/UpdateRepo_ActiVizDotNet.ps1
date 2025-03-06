@@ -34,7 +34,7 @@ $global:CurrentRepo_Ref = "00IGLib/11_10_IGLib_nitial"
 #   Actual brahch for use by IGLib is to be determined later.
 $global:CurrentRepo_Address = "https://github.com/ajgorhoe/activizdotnet.git"
 $global:CurrentRepo_Remote = "origin"
-$global:CurrentRepo_AddressSecondary = ""
+$global:CurrentRepo_AddressSecondary = "https://XXXXgithub.com/dearman/activizdotnet.git"
 $global:CurrentRepo_RemoteSecondary = "remoteUpstream"
 $global:CurrentRepo_AddressTertiary = "d:\git_external\ActiViz.git"
 $global:CurrentRepo_RemoteTertiary = "local"

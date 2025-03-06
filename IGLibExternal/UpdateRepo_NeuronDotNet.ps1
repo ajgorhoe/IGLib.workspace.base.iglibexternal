@@ -31,10 +31,6 @@ $UpdatingScriptPath = "./UpdateOrCloneRepository.ps1"
 #    in the same order as that script's parameters:
 
 $global:CurrentRepo_Directory = "NeuronDotNet/"
-# previous branch: IGLib/21_11_22_IGLib_1_9_1_Modified
-# for IGLib 1.9.1: IGLib/21_11_22_IGLib_1_9_1_Modified
-# Possible that this would also work:
-# set CheckoutBranch=IGLib/21_11_22_IGLib_1_9_1_Modified
 $global:CurrentRepo_Ref = "IGLib/25_02_IGLib_2_0_0_DependenciesAndProjectsHarmonization"
 #   previous branch: IGLib/21_11_22_IGLib_1_9_1_Modified
 #   for IGLib 1.9.1: IGLib/21_11_22_IGLib_1_9_1_Modified

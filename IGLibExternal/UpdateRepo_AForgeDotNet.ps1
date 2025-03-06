@@ -32,9 +32,10 @@ $UpdatingScriptPath = "./UpdateOrCloneRepository.ps1"
 $global:CurrentRepo_Directory = "aforge.net/"
 $global:CurrentRepo_Ref = "IGLib/25_02_IGLib_2_0_0_DependenciesAndProjectsHarmonization"
 #     00IGLib/14_11_24_IGLib_Initial
+#     The final branch used by IGLib eeds to be determined.
 $global:CurrentRepo_Address = "https://github.com/ajgorhoe/AForge.NET.git"
 $global:CurrentRepo_Remote = "origin"
-$global:CurrentRepo_AddressSecondary = ""
+$global:CurrentRepo_AddressSecondary = "https://XXXXgithub.com/andrewkirillov/AForge.NET.git"
 $global:CurrentRepo_RemoteSecondary = "remoteUpstream"
 $global:CurrentRepo_AddressTertiary = "d:\git_external\aforge.net.git"
 $global:CurrentRepo_RemoteTertiary = "local"
