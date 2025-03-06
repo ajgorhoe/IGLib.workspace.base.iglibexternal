@@ -29,13 +29,15 @@ $UpdatingScriptPath = "./UpdateOrCloneRepository.ps1"
 # Define parameter variables for UpdateOrCloneRepository.ps1
 #    in the same order as that script's parameters:
 
-$global:CurrentRepo_Directory = "/"
-$global:CurrentRepo_Ref = ""
-$global:CurrentRepo_Address = ""
+$global:CurrentRepo_Directory = "ZedGraph/"
+$global:CurrentRepo_Ref = "IGLib/25_02_IGLib_2_0_0_DependenciesAndProjectsHarmonization"
+#   00IGLib/21_11_26_IGLib_1_8_1_Initial
+#   Initially: CheckoutBranch=f7160203e2c400020046c97f61a01f470edcb4ce
+$global:CurrentRepo_Address = "https://github.com/ajgorhoe/ZedGraph.git"
 $global:CurrentRepo_Remote = "origin"
-$global:CurrentRepo_AddressSecondary = ""
+$global:CurrentRepo_AddressSecondary = "https://XXXXgithub.com/ZedGraph/ZedGraph.git"
 $global:CurrentRepo_RemoteSecondary = "remoteUpstream"
-$global:CurrentRepo_AddressTertiary = ""
+$global:CurrentRepo_AddressTertiary = "d:\git_external\ZedGraph.git"
 $global:CurrentRepo_RemoteTertiary = "local"
 $global:CurrentRepo_ThrowOnErrors = $false
 

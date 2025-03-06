@@ -29,13 +29,13 @@ $UpdatingScriptPath = "./UpdateOrCloneRepository.ps1"
 # Define parameter variables for UpdateOrCloneRepository.ps1
 #    in the same order as that script's parameters:
 
-$global:CurrentRepo_Directory = "/"
-$global:CurrentRepo_Ref = ""
-$global:CurrentRepo_Address = ""
+$global:CurrentRepo_Directory = "accord.net/"
+$global:CurrentRepo_Ref = "00IGLib/21_11_26_IGLib_1_8_1_Initial"
+$global:CurrentRepo_Address = "https://github.com/ajgorhoe/framework.git"
 $global:CurrentRepo_Remote = "origin"
 $global:CurrentRepo_AddressSecondary = ""
 $global:CurrentRepo_RemoteSecondary = "remoteUpstream"
-$global:CurrentRepo_AddressTertiary = ""
+$global:CurrentRepo_AddressTertiary = "d:\git_external\accord.net.git"
 $global:CurrentRepo_RemoteTertiary = "local"
 $global:CurrentRepo_ThrowOnErrors = $false
 

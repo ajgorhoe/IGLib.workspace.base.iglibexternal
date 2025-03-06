@@ -29,13 +29,14 @@ $UpdatingScriptPath = "./UpdateOrCloneRepository.ps1"
 # Define parameter variables for UpdateOrCloneRepository.ps1
 #    in the same order as that script's parameters:
 
-$global:CurrentRepo_Directory = "/"
-$global:CurrentRepo_Ref = ""
-$global:CurrentRepo_Address = ""
+$global:CurrentRepo_Directory = "aforge.net/"
+$global:CurrentRepo_Ref = "IGLib/25_02_IGLib_2_0_0_DependenciesAndProjectsHarmonization"
+#     00IGLib/14_11_24_IGLib_Initial
+$global:CurrentRepo_Address = "https://github.com/ajgorhoe/AForge.NET.git"
 $global:CurrentRepo_Remote = "origin"
 $global:CurrentRepo_AddressSecondary = ""
 $global:CurrentRepo_RemoteSecondary = "remoteUpstream"
-$global:CurrentRepo_AddressTertiary = ""
+$global:CurrentRepo_AddressTertiary = "d:\git_external\aforge.net.git"
 $global:CurrentRepo_RemoteTertiary = "local"
 $global:CurrentRepo_ThrowOnErrors = $false
 

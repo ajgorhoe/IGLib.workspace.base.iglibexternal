@@ -20,6 +20,7 @@
 Write-Host "`n`n======================================================="
 Write-Host "Updating/cloning a specific repository..."
 
+
 ########################################################################
 # Custom section (USER DEFINED):
 
@@ -29,15 +30,38 @@ $UpdatingScriptPath = "./UpdateOrCloneRepository.ps1"
 # Define parameter variables for UpdateOrCloneRepository.ps1
 #    in the same order as that script's parameters:
 
-$global:CurrentRepo_Directory = "/"
-$global:CurrentRepo_Ref = ""
-$global:CurrentRepo_Address = ""
+$global:CurrentRepo_Directory = "NeuronDotNet/"
+# previous branch: IGLib/21_11_22_IGLib_1_9_1_Modified
+# for IGLib 1.9.1: IGLib/21_11_22_IGLib_1_9_1_Modified
+# Possible that this would also work:
+# set CheckoutBranch=IGLib/21_11_22_IGLib_1_9_1_Modified
+$global:CurrentRepo_Ref = "IGLib/25_02_IGLib_2_0_0_DependenciesAndProjectsHarmonization"
+#   previous branch: IGLib/21_11_22_IGLib_1_9_1_Modified
+#   for IGLib 1.9.1: IGLib/21_11_22_IGLib_1_9_1_Modified
+#   Possible that this would also work:
+#   set CheckoutBranch=IGLib/21_11_22_IGLib_1_9_1_Modified
+$global:CurrentRepo_Address = "https://github.com/ajgorhoe/NeuronDotNet.git"
 $global:CurrentRepo_Remote = "origin"
-$global:CurrentRepo_AddressSecondary = ""
+$global:CurrentRepo_AddressSecondary = "https://XXXXgithub.com/trarck/NeuronDotNet.git"
 $global:CurrentRepo_RemoteSecondary = "remoteUpstream"
-$global:CurrentRepo_AddressTertiary = ""
+$global:CurrentRepo_AddressTertiary = "d:\git_external\NeuronDotNet.git"
 $global:CurrentRepo_RemoteTertiary = "local"
 $global:CurrentRepo_ThrowOnErrors = $false
+
+#### Some alternative repos for NeuronDotNet:
+####   https://sourceforge.net/projects/neurondotnet/
+####     - original source
+####   https://github.com/BitPhinix/NeuronNet.git 
+####     - newer, changes from renovation bot
+####   https://github.com/tiagosomda/NeuronDotNet.git  
+####     -for use in Unity, probably just the same as original
+####   https://github.com/0xFireball/SharpNeuron.git 
+####     - adapted to .NETCore / standard - check it out, maybe you can use
+####     it for your purpose, just take care that apps still work, including
+####     loading old models (binary deserialization may be a problem, or
+####     maybe not after last corrections)
+####   https://github.com/Guardian-Development/NeuralNetworksLibrary.git
+####     - similar lib, looks nice, but no licence attached
 
 # End of custom section
 ########################################################################

@@ -29,13 +29,17 @@ $UpdatingScriptPath = "./UpdateOrCloneRepository.ps1"
 # Define parameter variables for UpdateOrCloneRepository.ps1
 #    in the same order as that script's parameters:
 
-$global:CurrentRepo_Directory = "/"
-$global:CurrentRepo_Ref = ""
-$global:CurrentRepo_Address = ""
+$global:CurrentRepo_Directory = "Jint/"
+$global:CurrentRepo_Ref = "IGLib/25_02_IGLib_2_0_0_DependenciesAndProjectsHarmonization"
+#   00IGLib/main_IGLib
+#     00IGLib/main_IGLib
+#     00IGLib/22_11_06_IGLib
+#     00IGLib/21_12_01_IGLib_Initial
+$global:CurrentRepo_Address = "https://github.com/ajgorhoe/jint.git"
 $global:CurrentRepo_Remote = "origin"
-$global:CurrentRepo_AddressSecondary = ""
+$global:CurrentRepo_AddressSecondary = "https://XXXXgithub.com/sebastienros/jint.git"
 $global:CurrentRepo_RemoteSecondary = "remoteUpstream"
-$global:CurrentRepo_AddressTertiary = ""
+$global:CurrentRepo_AddressTertiary = "d:\git_external\jint.git"
 $global:CurrentRepo_RemoteTertiary = "local"
 $global:CurrentRepo_ThrowOnErrors = $false
 
