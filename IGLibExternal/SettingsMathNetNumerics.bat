@@ -26,7 +26,7 @@ ver > nul
 rem Parameters for the update:
 set ModuleDirRelative=mathnet-numerics
 rem set CheckoutBranch=8cdd91d37f36cb4daecc7838898a08ef9c3aa1a4
-set CheckoutBranch=00IGLib/21_11_26_IGLib_1_8_1_Initial
+set CheckoutBranch=00IGLib/25_02_IGLib_2_0_0_DependenciesAndProjectsHarmonization
 set RepositoryAddress=https://github.com/ajgorhoe/mathnet-numerics.git
 set RepositoryAddressSecondary=
 set RepositoryAddressLocal=d:\git_external\mathnet-numerics.git
