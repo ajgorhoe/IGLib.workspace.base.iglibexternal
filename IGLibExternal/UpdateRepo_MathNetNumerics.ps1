@@ -30,7 +30,8 @@ $UpdatingScriptPath = "./UpdateOrCloneRepository.ps1"
 #    in the same order as that script's parameters:
 
 $global:CurrentRepo_Directory = "mathnet-numerics/"
-$global:CurrentRepo_Ref = "00IGLib/21_11_26_IGLib_1_8_1_Initial"
+$global:CurrentRepo_Ref = "00IGLib/25_02_IGLib_2_0_0_DependenciesAndProjectsHarmonization"
+# Previous: "00IGLib/21_11_26_IGLib_1_8_1_Initial"
 #   initialy: CheckoutBranch=8cdd91d37f36cb4daecc7838898a08ef9c3aa1a4
 $global:CurrentRepo_Address = "https://github.com/ajgorhoe/mathnet-numerics.git"
 $global:CurrentRepo_Remote = "origin"
