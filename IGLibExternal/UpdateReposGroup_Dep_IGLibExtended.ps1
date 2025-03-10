@@ -12,12 +12,14 @@ Write-Host "Script directory: $scriptDir"
 # Update IGLib's basic dependencies:
 & $(join-path $scriptDir "UpdateReposGroup_Dep_IGLibBasic.ps1")
 
-
 Write-Host "`nUpdating ActiVizDotNet:"
 & $(Join-Path $scriptDir "UpdateRepo_ActiVizDotNet.ps1")
 
 Write-Host "`nUpdating AForgeDotNet:"
 & $(Join-Path $scriptDir "UpdateRepo_AForgeDotNet.ps1")
+
+Write-Host "`nUpdating NeuronDotNet:"
+& $(Join-Path $scriptDir "UpdateRepo_NeuronDotNet.ps1")
 
 
 Write-Host "  ... updating basic IGLib's extended dependencies completed.`n`n"
