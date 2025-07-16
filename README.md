@@ -1,10 +1,8 @@
 # About this Repository
 
-Copyright (c) Igor Grešovnik
+This repository is used as a container repository to contain (via Git cloning) the buildable source code of some IGLib dependencies.
 
-This repository is part of the Investigative Generic Library (IGLib).
-
-See license for terms of use. If no license file is included then this repository should not be copied or distributed.
+This repository is part of the Investigative Generic Library (IGLib). See [LICENSE.md](./LICENSE.md) for terms of use.
 
 In order to use this repository, clone it by using the IGLib container repository located at:
 
