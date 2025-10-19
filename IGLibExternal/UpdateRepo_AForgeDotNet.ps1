@@ -41,6 +41,14 @@ $global:CurrentRepo_AddressTertiary = "d:\git_external\aforge.net.git"
 $global:CurrentRepo_RemoteTertiary = "local"
 $global:CurrentRepo_ThrowOnErrors = $false
 
+# Remove secondary and tertiary remotes when running on GitHub Actions:
+if ($env:GITHUB_ACTIONS -eq "true") {
+    $global:CurrentRepo_AddressSecondary = $null
+    $global:CurrentRepo_RemoteSecondary = $null
+    $global:CurrentRepo_AddressTertiary = $null
+    $global:CurrentRepo_RemoteTertiary = $null
+}
+
 # End of custom section
 ########################################################################
 
