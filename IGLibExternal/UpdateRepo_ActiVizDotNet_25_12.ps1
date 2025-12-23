@@ -29,7 +29,7 @@ $UpdatingScriptPath = "./UpdateOrCloneRepository.ps1"
 # Define parameter variables for UpdateOrCloneRepository.ps1
 #    in the same order as that script's parameters:
 
-$global:CurrentRepo_Directory = "ActiViz/"
+$global:CurrentRepo_Directory = "ActiViz_25_12/"
 $global:CurrentRepo_Ref = "00IGLib/25_12_ActiVizFrom18_12"
 #   Actual brahch for use by IGLib is to be determined later.
 $global:CurrentRepo_Address = "https://github.com/ajgorhoe/activizdotnet.git"
